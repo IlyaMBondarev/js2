@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9da9e831-7fd0-4cca-96f7-2819248d4c43" name="Default Changelist" comment="" />
+    <list default="true" id="db659c61-b573-46d6-a330-bf45e658c0c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/.idea/dictionaries/IlyaPK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/.idea/ДЗ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/js/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1and2/js/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/.idea/3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/hamburger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
-  <component name="ProjectId" id="1atLAmx7KKDdyl02r2kK3mKrwaB" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bCSiXaOziVGI1fd3bSXzLw1dyc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -27,16 +54,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9da9e831-7fd0-4cca-96f7-2819248d4c43" name="Default Changelist" comment="" />
-      <created>1587549802804</created>
+      <changelist id="db659c61-b573-46d6-a330-bf45e658c0c2" name="Default Changelist" comment="" />
+      <created>1588134710187</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587549802804</updated>
-      <workItem from="1587549804936" duration="3729000" />
+      <updated>1588134710187</updated>
+      <workItem from="1588134712701" duration="9505000" />
+      <workItem from="1588178448395" duration="2447000" />
+      <workItem from="1588186984138" duration="421000" />
+      <workItem from="1588224699000" duration="1290000" />
+      <workItem from="1588226880271" duration="7893000" />
+      <workItem from="1588240194101" duration="3858000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2320" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588226778382">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2320" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1588226778382" />
+    <state x="2370" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588239851263">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2370" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1588239851263" />
   </component>
 </project>
