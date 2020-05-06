@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47744937-2ec0-42ef-92cf-3bab60c4f700" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+    <list default="true" id="b4108ad2-cb35-4587-b238-8bf30130a6ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/ДЗ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/form.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../form/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reg.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +26,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1bIUaHRYgCZ4PI1eWPHoX5s2Cfk" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1bWOnUoo4qpPWamJiHiUhM2G8HW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,13 +46,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47744937-2ec0-42ef-92cf-3bab60c4f700" name="Default Changelist" comment="" />
-      <created>1588319163062</created>
+      <changelist id="b4108ad2-cb35-4587-b238-8bf30130a6ab" name="Default Changelist" comment="" />
+      <created>1588744549948</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588319163062</updated>
-      <workItem from="1588319165738" duration="560000" />
-      <workItem from="1588319898478" duration="1469000" />
+      <updated>1588744549948</updated>
+      <workItem from="1588744552687" duration="12034000" />
     </task>
     <servers />
   </component>
