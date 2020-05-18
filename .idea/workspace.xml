@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fd52302-fd01-40aa-a348-608c7cfe12ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ДЗ.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/CartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/cartRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/cartRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/handler.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,9 @@
       <workItem from="1589440614305" duration="1204000" />
       <workItem from="1589441829399" duration="8633000" />
       <workItem from="1589451877671" duration="3865000" />
+      <workItem from="1589476226432" duration="1561000" />
+      <workItem from="1589483779438" duration="494000" />
+      <workItem from="1589784275302" duration="696000" />
     </task>
     <servers />
   </component>

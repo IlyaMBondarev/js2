@@ -8,6 +8,7 @@ const actions = {
 };
 
 const handler = (req, res, action, file) => {
+  console.log(actions[action]);
   fs.readFile(file, 'utf-8', (err, data) => {
     if (err) {
       res.sendStatus(404, JSON.stringify({result: 0, text: err}));
