@@ -1,18 +1,16 @@
 {
-    "amount": 10000,
-    "countGoods": 4,
+    "amount": 2400,
+    "countGoods": 3,
     "contents": [
         {
-            "quantity": 3,
-            "id_product": 457,
-            "product_name": "Геймпад",
-            "price": 3000
-        },
-        {
-            "quantity": 1,
-            "id_product": 456,
-            "product_name": "Мышка",
-            "price": 1000
+            "id_product": 8,
+            "img": {
+                "normal": "img/product_8.jpg",
+                "big": "img/product_8_big.jpg"
+            },
+            "product_name": "product 8",
+            "price": 800,
+            "quantity": 3
         }
     ]
 }

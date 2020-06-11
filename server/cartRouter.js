@@ -27,4 +27,12 @@ router.delete('/:id', (req, res) => {
   handler(req, res, 'del', './server/db/userCart.json');
 });
 
+router.purge('/', (req, res) => {
+  handler(req, res, 'clr', './server/db/userCart.json');
+});
+
+router.checkout('/:id', (req, res) => {
+  handler(req, res, 'checkout', './server/db/userCart.json');
+});
+
 module.exports = router;

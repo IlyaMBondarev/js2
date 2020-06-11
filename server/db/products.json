@@ -1,22 +1,66 @@
 [
   {
-    "id_product": 124,
-    "product_name": "Клавиатура",
-    "price": 1600
+    "id_product": 1,
+    "img": { "normal":"img/product_1.jpg",
+      "big": "img/product_1_big.jpg"
+    },
+    "product_name": "product 1",
+    "price": 100
   },
   {
-    "id_product": 457,
-    "product_name": "Геймпад",
-    "price": 3000
+    "id_product": 2,
+    "img": { "normal":"img/product_2.jpg",
+      "big": "img/product_2_big.jpg"
+    },
+    "product_name": "product 2",
+    "price": 200
   },
   {
-    "id_product": 123,
-    "product_name": "Ноутбук",
-    "price": 45600
+    "id_product": 3,
+    "img": { "normal":"img/product_3.jpg",
+      "big": "img/product_3_big.jpg"
+    },
+    "product_name": "product 3",
+    "price": 300
   },
   {
-    "id_product": 456,
-    "product_name": "Мышка",
-    "price": 1000
+    "id_product": 4,
+    "img": { "normal":"img/product_4.jpg",
+      "big": "img/product_4_big.jpg"
+    },
+    "product_name": "product 4",
+    "price": 400
+  },
+  {
+    "id_product": 5,
+    "img": { "normal":"img/product_5.jpg",
+      "big": "img/product_5_big.jpg"
+    },
+    "product_name": "product 5",
+    "price": 500
+  },
+  {
+    "id_product": 6,
+    "img": { "normal":"img/product_6.jpg",
+      "big": "img/product_6_big.jpg"
+    },
+    "product_name": "product 6",
+    "price": 600
+  },
+  {
+    "id_product": 7,
+    "img": { "normal":"img/product_7.jpg",
+      "big": "img/product_7_big.jpg"
+    },
+    "product_name": "product 7",
+    "price": 700
+  },
+  {
+    "id_product": 8,
+    "img": { "normal":"img/product_8.jpg",
+      "big": "img/product_8_big.jpg"
+    },
+    "product_name": "product 8",
+    "price": 800
   }
 ]

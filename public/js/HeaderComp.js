@@ -42,55 +42,7 @@ Vue.component('header-js', {
             </form>
         </div>
         <div class="header_right">
-            <details class="header_cart">
-                <summary class="header_cart_summary"><img src="img/cart.jpg" alt="cart" class="header_cart_image">
-                </summary>
-                <div class="header_cart_drop">
-                    <div class="header_cart_empty">
-                        <div class="header_cart_drop_flex">
-                            <a href="single_page.html"><img src="img/header_cart_1.jpg" alt="cart_1"></a>
-                            <div class="header_cart_shopping_info">
-                                <h3 class="header_cart_shopping_name">Rebox Zane</h3>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <h4 class="header_cart_shopping_price">1 <span
-                                        class="header_cart_shopping_price_x">x</span>
-                                    $250</h4>
-                            </div>
-                            <button class="header_cart_cancel_action"><img src="img/cart_cancel_action.jpg"
-                                                                           alt="cart_cancel_action"></button>
-                        </div>
-                        <div class="header_cart_drop_flex">
-                            <a href="single_page.html"><img src="img/header_cart_2.jpg" alt="cart_1"></a>
-                            <div class="header_cart_shopping_info">
-                                <h3 class="header_cart_shopping_name">Rebox Zane</h3>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <h4 class="header_cart_shopping_price">1 <span
-                                        class="header_cart_shopping_price_x">x</span>
-                                    $250</h4>
-                            </div>
-                            <button class="header_cart_cancel_action"><img src="img/cart_cancel_action.jpg"
-                                                                           alt="cart_cancel_action"></button>
-                        </div>
-                        <div class="header_cart_drop_total">
-                            <h3 class="header_cart_drop_total_h3">TOTAL</h3>
-                            <h3 class="header_cart_drop_total_h3">$500.00</h3>
-                        </div>
-                        <div class="header_cart_drop_buttons">
-                            <a href="#" class="header_button header_cart_drop_checkout">Checkout</a>
-                            <a href="shopping_cart.html" class="header_button header_cart_drop_go_to_cart">Go to
-                                cart</a>
-                        </div>
-                    </div>
-                </div>
-            </details>
+            <cart-js ref="cart"></cart-js>
             <a href="#" class="button">My&nbsp;Account<img class="margin_left_8" src="img/arrow_down_white.jpg" alt="arrow_down"></a></div>
     </header>`,
 });

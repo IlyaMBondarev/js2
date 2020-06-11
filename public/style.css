@@ -158,7 +158,6 @@ input[type=range] {
   border-radius: 5px;
   padding: 5px 16px 20px 16px;
   position: absolute;
-  display: none;
   border: 1px solid #ececec;
   z-index: 1;
 }
@@ -505,12 +504,8 @@ input[type=range] {
   background-color: white;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16);
 }
-.product_link:hover .product_bg_hover, .product_link:hover .product_hover {
-  display: flex;
-}
-.product_link:active .product_hover {
-  color: black;
-  border-color: black;
+.product_link:active .product_bg_hover {
+  display: none;
 }
 .product_link:active {
   box-shadow: none;
@@ -526,6 +521,32 @@ input[type=range] {
   padding: 15px;
   border: 1px solid white;
   display: none;
+  z-index: 1;
+  cursor: pointer;
+}
+.product_hover:hover {
+  outline: 1px solid white;
+}
+.product_hover:active {
+  color: black;
+  border-color: black;
+  outline: none;
+}
+.product_hover_button {
+  background: none;
+}
+.product_hover_article {
+  position: relative;
+}
+.product_hover_article:hover .product_bg_hover, .product_hover_article:hover .product_hover {
+  display: flex;
+}
+.product_hover_article:hover .product_link {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16);
+  background-color: white;
+}
+.product_hover_article:active .product_link {
+  box-shadow: none;
 }
 .product_bg_hover {
   display: none;
@@ -1027,6 +1048,10 @@ input[type=range] {
 .cart {
   margin-top: 90px;
   margin-bottom: 79px;
+}
+.cart_image {
+  width: 100px;
+  height: 115px;
 }
 .cart_image:hover {
   transform: scale(1.1);
@@ -1627,6 +1652,17 @@ input[type=range] {
 
 .price_range {
   width: 262px;
+}
+
+.cart_img {
+  width: 72px;
+  height: 85px;
+}
+
+.btn-cart {
+  background: none;
+  border: none;
+  margin-right: 26px;
 }
 
 /*# sourceMappingURL=style.css.map */

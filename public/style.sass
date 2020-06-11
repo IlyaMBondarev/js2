@@ -151,7 +151,6 @@ input[type="range"]
       border-radius: 5px
       padding: 5px 16px 20px 16px
       position: absolute
-      display: none
       border: 1px solid #ececec
       z-index: 1
 
@@ -480,13 +479,8 @@ input[type="range"]
       background-color: $color_white_clean
       box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
 
-    &:hover .product_bg_hover,
-    &:hover .product_hover
-      display: flex
-
-    &:active .product_hover
-      color: black
-      border-color: black
+    &:active .product_bg_hover
+      display: none
 
     &:active
       box-shadow: none
@@ -502,6 +496,28 @@ input[type="range"]
     padding: 15px
     border: 1px solid white
     display: none
+    z-index: 1
+    cursor: pointer
+    &:hover
+      outline: 1px solid white
+    &:active
+      color: black
+      border-color: black
+      outline: none
+    &_button
+      background: none
+    &_article
+      position: relative
+      &:hover .product_bg_hover,
+      &:hover .product_hover
+        display: flex
+      &:hover .product_link
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+        background-color: $color_white_clean
+      &:active .product_link
+        box-shadow: none
+
+
 
   &_bg_hover
     display: none
@@ -991,8 +1007,11 @@ input[type="range"]
   margin-top: 90px
   margin-bottom: 79px
 
-  &_image:hover
-    transform: scale(1.1)
+  &_image
+    width: 100px
+    height: 115px
+    &:hover
+      transform: scale(1.1)
 
   &_menu
     display: flex
@@ -1538,8 +1557,14 @@ input[type="range"]
 .price_range
   width: 262px
 
+.cart_img
+  width: 72px
+  height: 85px
 
-
+.btn-cart
+  background: none
+  border: none
+  margin-right: 26px
 
 
 
