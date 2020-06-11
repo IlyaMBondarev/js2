@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb54ad44-95e7-4170-b68d-8f1afcf91722" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Site.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow_down_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow_down_white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow_left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow_right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/arrow_right_white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bin burhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_cancel_action.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_red.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog1_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog2_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog3_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog4_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog5_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog6_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog7_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog8_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/catalog9_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/delivery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/feature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/header_cart_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/header_cart_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/offer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/offer_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/offer_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/offer_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_1_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_2_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_3_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_4_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_5_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_6_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_7_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_8_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/product_bg_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/quality.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sales.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/subscribe_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/BasketComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/CatalogComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/FooterComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/GoodComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/HeaderComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/NavComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/ProductComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/shopping_cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/single_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/addGood.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/catalog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/good.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/openGood.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ДЗ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/CartComp.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/CartComp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/ProducComp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/cartRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/cartRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/db/userCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/db/userCart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/server/db/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="HTML File" />
+        <option value="package.json" />
+        <option value="tsconfig.json" />
+        <option value="composer.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YWKEChnpOa6GW8qtDI3W1Yajtj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb54ad44-95e7-4170-b68d-8f1afcf91722" name="Default Changelist" comment="" />
+      <created>1583052796792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583052796792</updated>
+      <workItem from="1583052798640" duration="2559000" />
+      <workItem from="1583223374968" duration="10056000" />
+      <workItem from="1583252965148" duration="6717000" />
+      <workItem from="1583301720361" duration="11717000" />
+      <workItem from="1583474877697" duration="24717000" />
+      <workItem from="1583568077423" duration="157000" />
+      <workItem from="1589785403861" duration="2410000" />
+      <workItem from="1589876830855" duration="499000" />
+      <workItem from="1589878318898" duration="2583000" />
+      <workItem from="1589960920525" duration="3749000" />
+      <workItem from="1590050414006" duration="5272000" />
+      <workItem from="1590128178115" duration="15024000" />
+      <workItem from="1590489867224" duration="1224000" />
+      <workItem from="1590991328955" duration="13557000" />
+      <workItem from="1591076547934" duration="14405000" />
+      <workItem from="1591376589934" duration="723000" />
+      <workItem from="1591688646632" duration="8159000" />
+      <workItem from="1591765434747" duration="7793000" />
+      <workItem from="1591853178461" duration="2736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1583223518156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1583223518156" />
+    <state x="547" y="114" key="CommitChangelistDialog2" timestamp="1583254201121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="547" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583254201121" />
+    <state x="2363" y="132" key="RollbackChangesDialog" timestamp="1591773816202">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2363" y="132" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1591773816202" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1583253133353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583253133353" />
+    <state x="2296" y="83" width="672" height="676" key="search.everywhere.popup" timestamp="1591690572995">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2296" y="83" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1591690572995" />
+  </component>
+</project>
