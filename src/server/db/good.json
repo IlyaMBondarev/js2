@@ -1,0 +1,9 @@
+{
+    "id_product": 16,
+    "img": {
+        "normal": "img/catalog8.jpg",
+        "big": "img/catalog8_big.jpg"
+    },
+    "product_name": "catalog 8",
+    "price": 850
+}

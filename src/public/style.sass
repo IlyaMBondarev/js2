@@ -1,0 +1,1579 @@
+$color_red_main: rgba(241, 109, 127, 1)
+$color_white_clean: rgba(255, 255, 255, 1)
+$color_black_main: rgba(34, 34, 34, 1)
+$color_border_main: rgba(234, 234, 234, 1)
+$border_main: 1px solid $color_border_main
+
+*
+  padding: 0
+  margin: 0
+
+*:focus
+  outline: none
+
+body
+  font-family: 'Lato', sans-serif
+
+a
+  text-decoration: none
+
+button
+  cursor: pointer
+
+li
+  list-style-type: none
+
+input
+  padding-left: 16px
+  padding-right: 16px
+
+input[type="range"]
+  padding-left: 0
+  padding-right: 0
+
+.red
+  color: $color_red_main
+
+.margin_left_8
+  margin-left: 8px
+
+.absolute
+  position: absolute
+
+.center
+  padding: 0 calc(50% - 570px)
+
+.logo
+  display: flex
+  align-items: center
+  font-size: 27px
+  font-weight: 300
+  color: $color_black_main
+  text-align: center
+  letter-spacing: 0.03em
+  line-height: 32px
+  text-transform: uppercase
+
+  &_img
+    margin-right: 13px
+
+.header
+  display: flex
+  justify-content: space-between
+  background-color: $color_white_clean
+  border: 1px solid rgba(236, 236, 236, 1)
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17)
+  height: 100px
+  align-items: center
+
+  &_left,
+  &_right
+    display: flex
+    align-items: center
+
+  &_form
+    display: flex
+    align-items: center
+    margin-left: 37px
+    height: 38px
+
+  &_browse
+    font-size: 14px
+    font-weight: 500
+    color: $color_black_main
+    letter-spacing: 0.03em
+    line-height: 32px
+    padding: 3px 12.5px
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 1px solid rgba(230, 230, 230, 1)
+    border-radius: 3px 0 0 3px
+    background-image: linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%)
+
+    &:hover
+      background-image: none
+
+    &:active
+      background-image: linear-gradient(180deg, rgba(245, 245, 245, 1) 100%, rgba(249, 249, 249, 1) 0%)
+
+  &_summary::-webkit-details-marker
+    display: none
+
+  &_summary::after
+    content: '\25BE'
+
+  &_browse:hover
+    cursor: pointer
+
+  &_browse[open] .drop
+    display: flex
+    top: 23px
+    z-index: 1
+
+  &_form input
+    height: 36px
+
+  &_search_button
+    height: 40px
+    width: 38px
+    background-color: $color_white_clean
+    border: 1px solid rgba(230, 230, 230, 1)
+    border-radius: 0 3px 3px 0
+
+    &:hover
+      cursor: pointer
+
+  &_input
+    width: 261px
+
+  &_cart
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-right: 26px
+
+    &:hover
+      cursor: pointer
+
+    &[open] &_drop
+      display: flex
+      top: 48px
+      z-index: 1
+
+    &_summary::-webkit-details-marker
+      display: none
+
+    &_drop
+      background-color: $color_white_clean
+      border-radius: 5px
+      padding: 5px 16px 20px 16px
+      position: absolute
+      border: 1px solid #ececec
+      z-index: 1
+
+      &_buttons
+        display: flex
+        flex-direction: column
+        margin-top: 32px
+
+      &_checkout
+        padding: 19px 74px
+        margin-bottom: 11px
+        border: 1px solid rgba(241, 109, 127, 1)
+        font-size: 14px
+        font-weight: 900
+        color: rgba(241, 109, 127, 1)
+        text-transform: uppercase
+
+        &:hover
+          background-color: $color_red_main
+          color: $color_white_clean
+
+      &_go_to_cart
+        padding: 19px 72px
+        border: 1px solid rgba(234, 234, 234, 1)
+        font-size: 14px
+        font-weight: 900
+        color: rgba(74, 74, 74, 1)
+        text-transform: uppercase
+
+        &:hover
+          background-color: $color_red_main
+          color: $color_white_clean
+
+      &_total
+        display: flex
+        justify-content: space-between
+        margin-top: 19px
+
+        &_h3
+          font-size: 16px
+          font-weight: 900
+          color: rgba(34, 34, 34, 1)
+          text-transform: uppercase
+
+      &_flex
+        display: flex
+        width: 230px
+        position: relative
+        padding: 15px 0
+        border-bottom: 1px solid rgba(237, 237, 237, 0.75)
+
+        &:last-of-type
+          margin-right: 0
+
+    &_shopping_name
+      font-size: 12px
+      font-weight: 900
+      color: rgba(34, 34, 34, 1)
+      text-transform: uppercase
+
+    &_cancel_action
+      border: none
+      background-color: $color_white_clean
+      position: absolute
+      right: 0
+      top: 52px
+
+    &_shopping_info
+      margin-left: 15px
+
+      .fas
+        font-size: 10px
+        color: rgba(228, 175, 72, 1)
+        padding-top: 12px
+        padding-bottom: 12px
+        margin-left: -5px
+
+        &:first-of-type
+          margin-left: 0
+
+    &_shopping_price
+      font-size: 12px
+      color: rgba(241, 109, 127, 1)
+      text-transform: uppercase
+      line-height: 10px
+
+      &_x
+        font-size: 10px
+
+
+.drop
+  background-color: $color_white_clean
+  border-radius: 5px
+  padding: 12px 20px
+  position: absolute
+  display: none
+  top: 51px
+  border: 1px solid #ececec
+  z-index: 1
+
+  &_reverse
+    right: 0
+
+  &_flex
+    width: 234px
+    margin-right: 46px
+
+    &:last-of-type
+      margin-right: 0
+
+  &_h3
+    font-size: 14px
+    color: #232323
+    letter-spacing: 0.03em
+    text-transform: uppercase
+    border-bottom: 1px solid #e8e8e8
+    padding-bottom: 8px
+    padding-top: 8px
+    margin-bottom: 8px
+
+  &_ul
+    list-style-type: none
+
+  &_link
+    font-size: 14px
+    color: #646464
+    letter-spacing: 0.03em
+    line-height: 28px
+
+    &:hover
+      color: #f16d7f
+
+.search
+  display: block
+  height: 40px
+  width: 38px
+
+  &:hover .header_search_button
+    background-image: linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%)
+
+  &:active .header_search_button
+    background-image: none
+
+.button
+  background-color: $color_red_main
+  padding: 12px 19px
+  font-size: 15px
+  color: $color_white_clean
+  letter-spacing: 0.03em
+
+  &:hover
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+    cursor: pointer
+
+  &:active
+    box-shadow: none
+
+.menu
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+
+  &_link
+    padding: 19px 24px
+    display: block
+    font-size: 14px
+    font-weight: bold
+    color: $color_black_main
+    line-height: 26px
+    text-transform: uppercase
+
+    &:hover
+      background-image: linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%)
+
+    &:active
+      background-image: linear-gradient(180deg, rgba(245, 245, 245, 1) 0%, rgba(249, 249, 249, 1) 100%)
+
+  &_list
+    position: relative
+
+    &:hover .drop
+      display: flex
+
+.slider
+  background-image: url(img/slider.png)
+  display: flex
+  flex-direction: column
+  height: 614px
+  background-repeat: no-repeat
+  background-position: center -50px
+
+  &_h1
+    font-size: 60px
+    font-weight: 900
+    color: $color_black_main
+    letter-spacing: 0.03em
+    margin-top: 258px
+    border-left: 12px solid $color_red_main
+    padding-left: 12px
+    line-height: 40px
+    padding-bottom: 12px
+
+  &_h2
+    font-size: 40px
+    font-weight: 900
+    color: $color_black_main
+    letter-spacing: 0.03em
+    border-left: 12px solid $color_red_main
+    padding-left: 12px
+    line-height: 33px
+
+.category
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  margin: 88px 0
+
+.banners_left,
+.banners_right
+  width: 560px
+  margin: 10px 0
+
+.banner_1
+  background-image: url(img/banner_1.jpg)
+  height: 542px
+  width: 560px
+
+.banner_2
+  background-image: url(img/banner_2.jpg)
+  height: 261px
+  width: 560px
+
+.banner_3
+  background-image: url(img/banner_3.jpg)
+  height: 261px
+  width: 560px
+
+.banner_4
+  background-image: url(img/banner_4.jpg)
+  height: 542px
+  width: 560px
+
+.banner
+  margin-bottom: 20px
+  display: flex
+  flex-direction: column
+  position: relative
+
+.margin_r_20
+  margin-right: 20px
+
+.banner_last
+  margin-bottom: 0
+
+.banner_content
+  padding: 16px 19px
+  background-color: white
+  top: 26px
+  position: absolute
+
+.banner_h3
+  font-size: 18px
+  font-weight: 900
+  color: $color_black_main
+  letter-spacing: 0.03em
+  text-transform: uppercase
+
+.banner_h2
+  font-size: 30px
+  font-weight: 900
+  color: $color_red_main
+  letter-spacing: 0.03em
+  text-transform: uppercase
+
+.products
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.product
+  position: relative
+
+  &_menu
+    margin-bottom: 113px
+    text-align: center
+
+  &_h3
+    font-size: 30px
+    font-weight: bold
+    color: $color_black_main
+    text-align: center
+    letter-spacing: 0.03em
+
+  &_h6
+    font-size: 14px
+    color: rgba(159, 159, 159, 1)
+    text-align: center
+    letter-spacing: 0.03em
+    margin-top: 10px
+    margin-bottom: 60px
+
+  &_button
+    margin-top: 45px
+    display: inline-block
+
+  &_name
+    font-size: 14px
+    color: $color_black_main
+    text-align: left
+    text-transform: uppercase
+    margin: 14px
+
+  &_prise
+    font-size: 16px
+    font-weight: bold
+    text-align: left
+    text-transform: uppercase
+    margin: 14px
+
+  &_link
+    display: inline-block
+    margin-bottom: 31px
+
+    &:hover
+      background-color: $color_white_clean
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+
+    &:active .product_bg_hover
+      display: none
+
+    &:active
+      box-shadow: none
+
+  &_hover
+    position: absolute
+    align-items: center
+    font-size: 13px
+    font-weight: bold
+    color: $color_white_clean
+    left: 70px
+    top: 97px
+    padding: 15px
+    border: 1px solid white
+    display: none
+    z-index: 1
+    cursor: pointer
+    &:hover
+      outline: 1px solid white
+    &:active
+      color: black
+      border-color: black
+      outline: none
+    &_button
+      background: none
+    &_article
+      position: relative
+      &:hover .product_bg_hover,
+      &:hover .product_hover
+        display: flex
+      &:hover .product_link
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+        background-color: $color_white_clean
+      &:active .product_link
+        box-shadow: none
+
+
+
+  &_bg_hover
+    display: none
+
+.feature
+  background-color: rgba(34, 34, 36, 1)
+  margin-bottom: 98px
+  display: flex
+  justify-content: space-between
+
+  &_content
+    display: inline-block
+    flex-direction: column
+    height: 529px
+    width: 1140px
+    background-repeat: no-repeat
+    background-image: url(img/feature.jpg)
+
+  &_h1
+    font-size: 54px
+    font-weight: bold
+    color: $color_white_clean
+    letter-spacing: 0.03em
+    margin-top: 146px
+    margin-left: 30px
+
+  &_h2
+    font-size: 32px
+    font-weight: bold
+    color: $color_white_clean
+    letter-spacing: 0.03em
+    margin-left: 30px
+
+  &_h5
+    display: inline
+    font-size: 20px
+    font-weight: bold
+    color: rgba(251, 251, 251, 1)
+    letter-spacing: 0.03em
+    margin-left: 30px
+
+  &_p
+    font-size: 14px
+    font-weight: 300
+    color: rgba(251, 251, 251, 1)
+    letter-spacing: 0.03em
+    line-height: 24px
+    margin-left: 75px
+
+  &_texts
+    display: flex
+    flex-direction: column
+    width: 550px
+
+  &_text
+    padding: 26px 26px 26px 36px
+    width: 298px
+
+.citation
+  border-right: 1px solid rgba(220, 220, 220, 1)
+  display: flex
+  padding-top: 111px
+
+  &_content
+    padding-left: 28px
+    padding-top: 12px
+    width: 400px
+    margin-right: 26px
+
+  &_bin_burhan
+    font-size: 16px
+    font-weight: bold
+    font-style: italic
+    color: rgba(34, 34, 36, 1)
+    letter-spacing: 0.03em
+    line-height: 26px
+
+  &_h5_name
+    font-size: 16px
+    font-weight: bold
+    letter-spacing: 0.03em
+    line-height: 26px
+    padding-top: 10px
+
+  &_h6_name
+    font-size: 12px
+    font-weight: 300
+    color: rgba(34, 34, 36, 1)
+    letter-spacing: 0.03em
+    line-height: 14px
+    margin-bottom: 33px
+
+  &_pagination
+    height: 4px
+    width: 38px
+    background-color: rgba(214, 214, 214, 1)
+    display: inline-block
+    margin-right: 11px
+
+    &:hover
+      background-color: $color_red_main
+
+    &_active
+      background-color: $color_red_main
+
+.subscribe
+  background-image: url(img/subscribe_bg.png)
+  background-repeat: no-repeat
+  background-position: center
+  height: 438px
+  display: flex
+  justify-content: space-between
+  margin-bottom: 98px
+
+  &_block
+    margin-top: 148px
+    padding-left: 92px
+
+  &_h4
+    font-size: 24px
+    color: rgba(34, 34, 36, 1)
+    text-align: center
+    letter-spacing: 0.03em
+    line-height: 29px
+    text-transform: uppercase
+
+  &_h5
+    font-size: 14px
+    color: rgba(34, 34, 36, 1)
+    text-align: center
+    letter-spacing: 0.03em
+    line-height: 24px
+
+  &_form
+    display: flex
+    margin-top: 35px
+    border-radius: 50%
+    margin-bottom: 50px
+
+  &_email
+    height: 44px
+    width: 308px
+    border-top-left-radius: 23px
+    border-bottom-left-radius: 23px
+    background-color: rgba(225, 225, 225, 1)
+    border: none
+    letter-spacing: 0.03em
+    font-size: 14px
+    color: rgba(34, 34, 36, 1)
+
+  &_button
+    border-top-right-radius: 23px
+    border-bottom-right-radius: 23px
+    margin-left: -2px
+    border: none
+
+.footer
+  margin-top: 109px
+
+  &_information
+    display: flex
+    justify-content: flex-start
+    margin-bottom: 93px
+
+  &_p
+    font-size: 14px
+    font-weight: 300
+    color: rgba(137, 137, 137, 1)
+    letter-spacing: 0.03em
+    line-height: 24px
+
+    &_rights
+      font-size: 16px
+      color: rgba(122, 122, 122, 1)
+      letter-spacing: 0.03em
+      font-weight: 600
+
+  &_rights
+    background-color: rgba(230, 230, 230, 1)
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 33px
+    padding-bottom: 33px
+
+  &_column_1
+    max-width: 430px
+    margin-right: 61.4px
+
+  &_column_2
+    margin-right: 129px
+
+  &_column_3
+    margin-right: 80px
+
+  &_h5
+    font-size: 18px
+    font-weight: bold
+    color: $color_red_main
+    letter-spacing: 0.03em
+    line-height: 26px
+    margin-bottom: 17px
+
+  &_menu_link
+    font-size: 16px
+    color: rgba(137, 137, 137, 1)
+    letter-spacing: 0.03em
+    line-height: 42px
+
+    &:hover
+      color: $color_red_main
+
+.social_links
+  display: flex
+  justify-content: flex-end
+
+.social_link
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 32px
+  height: 32px
+  margin-left: 8px
+  background-color: $color_white_clean
+  text-align: center
+  letter-spacing: 0.03em
+  line-height: 42px
+  color: rgba(178, 178, 178, 1)
+
+  &:hover
+    background-color: $color_red_main
+    color: rgba(247, 247, 248, 1)
+
+// single_page
+
+.new_arrivals
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background-color: rgba(248, 243, 244, 1)
+
+  &_h4
+    font-size: 24px
+    font-weight: 900
+    color: $color_red_main
+    line-height: 20px
+    text-transform: uppercase
+    padding-top: 65px
+    padding-bottom: 65px
+
+  &_link
+    font-size: 14px
+    font-weight: 300
+    color: rgba(99, 99, 99, 1)
+    line-height: 20px
+    text-transform: uppercase
+
+    &_active
+      font-weight: bold
+      color: $color_red_main
+      line-height: 20px
+
+  &_slash
+    font-size: 14px
+    font-weight: 300
+    color: rgba(99, 99, 99, 1)
+    line-height: 20px
+    text-transform: uppercase
+
+.product_png
+  height: 777px
+  width: 100%
+  background-color: rgba(247, 247, 247, 1)
+  border: $border_main
+  text-align: center
+  position: relative
+
+.turn_left,
+.turn_right
+  padding: 16px 18px 17px 21px
+  background-color: rgba(42, 42, 42, 0.15)
+  top: 365px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.turn_left:hover,
+.turn_right:hover
+  background-color: rgba(0, 0, 0, 0.15)
+
+.turn_left
+  left: 0
+
+.turn_right
+  right: 0
+
+.offers
+  display: flex
+  justify-content: space-between
+
+.stars
+  position: absolute
+  right: 12px
+  height: 14px
+  color: rgba(228, 175, 72, 1)
+  bottom: 0
+  display: none
+
+.fas
+  height: 14px
+  width: 14px
+  font-size: 12px
+
+.offer
+  &_h3
+    font-size: 24px
+    font-weight: 900
+    color: rgba(77, 77, 77, 1)
+    text-align: center
+    line-height: 20px
+    text-transform: uppercase
+    margin-top: 119px
+    margin-bottom: 72px
+
+  &_block
+    position: relative
+
+  &_img
+    height: 280px
+    width: 261px
+    background-color: rgba(233, 233, 233, 1)
+    background-repeat: no-repeat
+    background-position: center
+    text-align: center
+
+    &_1
+      background-image: url(img/offer_1.png)
+
+    &_2
+      background-image: url(img/offer_2.png)
+
+    &_3
+      background-image: url(img/offer_3.png)
+
+    &_4
+      background-image: url(img/offer_4.png)
+
+  &_name
+    font-size: 14px
+    color: rgba(111, 110, 110, 1)
+    text-transform: uppercase
+    margin: 18px 0 17px 14px
+
+  &_price
+    font-size: 16px
+    font-weight: bold
+    color: $color_red_main
+    text-transform: uppercase
+    margin-left: 14px
+    margin-bottom: 21px
+    line-height: 18px
+
+  &_link:hover
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+
+    .stars
+      display: flex
+
+.description
+  text-align: center
+  background-color: $color_white_clean
+  border: $border_main
+  z-index: 1
+  position: relative
+  margin: -86px calc(50% - 570px) 0 calc(50% - 570px)
+
+  &_collection
+    font-size: 14px
+    display: inline-block
+    width: 148px
+    font-weight: bold
+    color: $color_red_main
+    line-height: 24px
+    margin-top: 73px
+
+  &_name
+    font-size: 18px
+    font-weight: 900
+    color: rgba(77, 77, 77, 1)
+    line-height: 24px
+    text-transform: uppercase
+
+  &_sliders
+    display: flex
+    justify-content: center
+    margin: 15px 0
+
+  &_slider
+    height: 1px
+    width: 42px
+    background-color: $color_border_main
+
+    &_active
+      height: 3px
+      width: 63px
+      background-color: rgba(239, 91, 112, 1)
+
+  &_content
+    font-size: 14px
+    font-weight: 300
+    color: rgba(94, 94, 94, 1)
+    line-height: 24px
+    padding: 67px 255px 24px 261px
+
+  &_specifications_name
+    font-size: 14px
+    font-weight: bold
+    color: rgba(185, 185, 185, 1)
+    line-height: 24px
+
+  &_specification
+    font-size: 14px
+    font-weight: bold
+    color: rgba(47, 47, 47, 1)
+    line-height: 24px
+    margin-right: 44px
+
+    &:last-of-type
+      margin-right: 0
+
+  &_price
+    font-size: 24px
+    font-weight: bold
+    color: rgba(239, 91, 112, 1)
+    text-align: center
+    line-height: 24px
+    margin-top: 37px
+    margin-bottom: 43px
+
+  &_form
+    width: 648px
+    border-top: $border_main
+    margin-left: 250px
+    margin-bottom: 122px
+
+    &_options
+      display: flex
+      justify-content: space-around
+      margin-top: 63px
+      margin-bottom: 28px
+
+    &_option_choice_name
+      margin-bottom: 15px
+
+    &_choice
+      height: 35px
+      width: 176px
+      background-color: $color_white_clean
+      border: $border_main
+      padding-left: 16px
+      padding-right: 16px
+
+    &_quantity
+      height: 33px
+      width: 144px
+      background-color: $color_white_clean
+      border: $border_main
+
+  &_add
+    font-size: 16px
+    font-weight: bold
+    color: rgba(239, 91, 112, 1)
+    display: flex
+    align-items: center
+    padding: 22px 205px
+    margin-left: 53px
+    border: 1px solid rgba(239, 91, 112, 1)
+    background-color: $color_white_clean
+
+    &:hover
+      color: $color_white_clean
+      background-color: rgba(222, 222, 222, 1)
+
+// shopping cart
+
+.cart
+  margin-top: 90px
+  margin-bottom: 79px
+
+  &_image
+    width: 100px
+    height: 115px
+    &:hover
+      transform: scale(1.1)
+
+  &_menu
+    display: flex
+    justify-content: space-between
+    border-bottom: $border_main
+    padding-bottom: 20px
+
+    &_list
+      font-size: 13px
+      font-weight: bold
+      color: $color_black_main
+      letter-spacing: -0.01em
+      line-height: 20px
+      text-transform: uppercase
+
+    & > .cart_product_details
+      margin-right: 350px
+
+  &_shopping_item
+    display: flex
+    align-items: center
+    margin-top: 22px
+    padding-bottom: 25px
+    justify-content: space-between
+    border-bottom: $border_main
+
+  &_product
+    display: flex
+
+  &_shopping_info
+    margin-left: 21px
+    margin-right: 175px
+
+    &_content
+      font-size: 13px
+      font-weight: 300
+      color: rgba(111, 110, 110, 1)
+      line-height: 20px
+
+      &_name
+        color: rgba(87, 87, 87, 1)
+        font-weight: bold
+        margin-right: 6px
+
+  &_shopping_name
+    font-size: 13px
+    font-weight: 800
+    color: $color_black_main
+    text-transform: uppercase
+    margin-bottom: 38px
+    width: 157px
+
+  &_price
+    font-size: 13px
+    color: rgba(101, 101, 101, 1)
+    line-height: 20px
+    margin-left: 12px
+
+  &_quantity
+    font-size: 13px
+    color: rgba(101, 101, 101, 1)
+    line-height: 20px
+    height: 30px
+    width: 33px
+    padding-right: 5px
+    background-color: $color_white_clean
+    border: $border_main
+    margin-left: 5px
+
+  &_shipping
+    font-size: 13px
+    color: rgba(101, 101, 101, 1)
+    line-height: 20px
+    margin-right: 9px
+
+  &_subtotal
+    font-size: 13px
+    color: rgba(101, 101, 101, 1)
+    line-height: 20px
+    margin-right: 14px
+
+  &_cancel_action
+    border: none
+    margin-right: 12px
+    background-color: white
+    border-radius: 50%
+    height: 13px
+    width: 13px
+    &:hover
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7)
+      transform: scale(1.4)
+    &_image
+      border-radius: 50%
+      margin-top: -1px
+      margin-left: -1px
+
+  &_buttons
+    display: flex
+    margin-top: 44px
+    justify-content: space-between
+
+  &_button
+    padding: 19px 39px
+    font-size: 14px
+    font-weight: bold
+    color: rgba(74, 74, 74, 1)
+    text-transform: uppercase
+    border: $border_main
+
+    &:hover
+      color: $color_white_clean
+      background-color: $color_red_main
+
+  &_shopping_form
+    display: flex
+    justify-content: space-between
+
+  &_shopping_h3
+    margin-bottom: 22px
+    font-size: 16px
+    font-weight: bold
+    color: $color_black_main
+    text-transform: uppercase
+
+  &_shopping_h4
+    font-size: 11px
+    font-weight: bold
+    color: rgba(74, 74, 74, 1)
+    text-transform: uppercase
+    text-align: right
+
+  &_shopping_select
+    height: 45px
+    width: 355px
+    padding-left: 16px
+    padding-right: 16px
+    font-size: 13px
+    font-weight: 300
+    color: rgba(177, 177, 177, 1)
+    border: $border_main
+    margin-bottom: 20px
+    cursor: pointer
+
+  &_shopping_input
+    height: 45px
+    width: 322px
+    font-size: 13px
+    font-weight: 300
+    color: rgba(177, 177, 177, 1)
+    border: $border_main
+    margin-bottom: 20px
+
+  &_form_button
+    padding: 12px 14px
+    font-size: 11px
+    font-weight: bold
+    color: rgba(74, 74, 74, 1)
+    background-color: $color_white_clean
+    border: $border_main
+    text-transform: uppercase
+
+    &:hover
+      color: $color_white_clean
+      background-color: $color_red_main
+
+  &_shopping_h5
+    font-size: 14px
+    font-weight: 300
+    color: rgba(0, 0, 0, 1)
+
+  &_form_submit_total
+    font-size: 16px
+    font-weight: bold
+    color: $color_white_clean
+    text-transform: uppercase
+
+.h3_sub_total_form
+  padding-top: 14px
+  padding-bottom: 22px
+  border-bottom: 1px solid rgba(226, 226, 226, 1)
+  margin-bottom: 17px
+
+.grand_total
+  background-color: rgba(233, 233, 233, 1)
+  padding: 40px
+  height: 137px
+
+// checkout
+
+.checkout
+  margin-top: 89px
+
+  &_details[open] &_list
+    border-bottom: none
+
+  &_list
+    font-size: 16px
+    font-weight: 900
+    color: rgba(34, 34, 34, 1)
+    text-transform: uppercase
+    padding: 33px 0
+    border-bottom: 1px solid rgba(232, 232, 232, 1)
+    cursor: pointer
+
+    &::-webkit-details-marker
+      display: none
+
+    &_name
+      margin-left: 9px
+
+  &_drop
+    display: flex
+    justify-content: space-between
+    border-bottom: 1px solid rgba(232, 232, 232, 1)
+    margin-left: 35px
+    padding-bottom: 79px
+    cursor: default
+
+    &_left
+      &_form
+        margin-bottom: 32px
+
+        &_checkbox
+          margin-right: 15px
+          -webkit-appearance: none
+          background-color: $color_white_clean
+          border: 2px solid rgba(85, 85, 85, 1)
+          height: 14px
+          width: 14px
+          border-radius: 50%
+          padding: 0
+          cursor: pointer
+
+        &_checkbox:checked
+          background-image: url("img/dot.png")
+          background-repeat: no-repeat
+          background-position: center
+      &_button
+        display: inline-block
+        font-size: 14px
+        font-weight: bold
+        color: rgba(74, 74, 74, 1)
+        text-transform: uppercase
+        padding: 19px 53px
+        background-color: rgba(255, 255, 255, 1)
+        border: 1px solid rgba(234, 234, 234, 1)
+        margin-top: 22px
+
+    &_right
+      padding-right: 167px
+
+      &_form_input
+        height: 45px
+        width: 390px
+        background-color: rgba(255, 255, 255, 1)
+        border: 1px solid rgba(234, 234, 234, 1)
+        font-size: 17px
+
+      &_form_h4
+        font-size: 12px
+        color: rgba(34, 34, 34, 1)
+        margin-bottom: 16px
+        margin-top: 23px
+
+      &_form_required
+        font-size: 14px
+        color: rgba(255, 13, 13, 1)
+
+        &_text
+          font-size: 13px
+          color: rgba(255, 13, 13, 1)
+          margin-top: 22px
+          margin-bottom: 32px
+
+      &_form_buttons
+        display: flex
+
+      &_form_submit
+        display: inline-block
+        font-size: 14px
+        font-weight: bold
+        color: rgba(74, 74, 74, 1)
+        text-transform: uppercase
+        padding: 19px 81px 19px 55px
+        background-color: $color_white_clean
+        border: 1px solid rgba(234, 234, 234, 1)
+
+      &_form_forgot
+        font-size: 14px
+        color: rgba(34, 34, 34, 1)
+        font-weight: bold
+        margin-top: 24px
+        margin-left: 32px
+
+      &_h5
+        font-size: 13px
+        color: rgba(179, 178, 178, 1)
+        line-height: 12px
+        margin-top: 15px
+
+    &_h3
+      font-size: 13px
+      color: rgba(34, 34, 34, 1)
+      text-transform: uppercase
+      font-weight: bold
+      line-height: 11px
+
+      &_checkbox
+        font-size: 13px
+        color: rgba(34, 34, 34, 1)
+        text-transform: uppercase
+        font-weight: bold
+        line-height: 11px
+        margin-bottom: 16px
+        display: flex
+        align-items: center
+
+    &_h5
+      font-size: 13px
+      color: rgba(179, 178, 178, 1)
+      line-height: 12px
+      margin-top: 15px
+      margin-bottom: 31px
+
+      &_last
+        margin-top: -16px
+        margin-bottom: 38px
+
+// product
+
+.feature_boxes
+  display: flex
+  justify-content: space-around
+  background-color: rgba(34, 34, 36, 1)
+  min-height: 341px
+  flex-wrap: wrap
+
+.feature_box
+  width: 314px
+  text-align: center
+  &_pic
+    margin-top: 89px
+  &_h4
+    font-size: 20px
+    font-weight: bold
+    color: rgba(251, 251, 251, 1)
+    text-align: center
+    letter-spacing: 0.03em
+    margin-top: 30px
+    margin-bottom: 17px
+  &_sales
+    margin-top: 22.5px
+  &_quality
+    margin-top: 28px
+  &_p
+    font-size: 14px
+    font-weight: 300
+    color: rgba(251, 251, 251, 1)
+    letter-spacing: 0.03em
+    line-height: 24px
+
+.catalog
+  display: flex
+  justify-content: space-between
+  margin-top: 59px
+  &_nav
+    margin-right: 49px
+  &_list
+    line-height: 33px
+    padding-left: 17px
+  &_link
+    font-size: 14px
+    color: rgba(111, 110, 110, 1)
+  &_summary
+    margin-bottom: 14px
+    font-size: 14px
+    font-weight: bold
+    color: rgba(111, 110, 110, 1)
+    line-height: 10px
+    text-transform: uppercase
+    padding: 12px 5px 15px 11px
+    border-left: 5px solid rgba(239, 91, 112, 1)
+    display: flex
+    justify-content: space-between
+    width: 238px
+    border-bottom: 1px solid rgba(235, 235, 235, 1)
+    cursor: pointer
+    &::-webkit-details-marker
+      display: none
+    &::after
+      content: '\25be'
+    &:hover
+      border-bottom: 1px solid rgba(239, 91, 112, 1)
+    &:active
+      box-shadow: 0 0 2px 0 rgba(239, 91, 112, 1)
+  &_details
+    margin-bottom: 14px
+    &[open] .catalog_summary::after
+      content: '\25b4'
+    &[open] .catalog_summary
+      color: rgba(239, 91, 112, 1)
+  &_button
+    font-size: 16px
+    font-weight: 600
+    color: rgba(239, 91, 112, 1)
+    line-height: 12px
+    padding: 16px 46px
+    border: 1px solid rgba(239, 91, 112, 1)
+    border-radius: 3px
+    &:hover
+      color: $color_white_clean
+      background-color: $color_red_main
+      box-shadow: 0 0 3px 0 rgba(239, 91, 112, 1)
+    &:active
+      box-shadow: none
+  &_sort
+    height: 50px
+    background-color: rgba(243, 243, 243, 1)
+    margin-top: 28px
+    margin-bottom: 48px
+    display: flex
+    align-items: center
+    &_button
+      font-size: 14px
+      color: rgba(111, 110, 110, 1)
+      line-height: 12px
+      padding: 10px 9px 10px 12px
+      margin-left: 9px
+      background-color: rgba(255, 255, 255, 1)
+      border: 1px solid rgba(235, 235, 235, 1)
+    &_details
+      display: flex
+      justify-content: space-between
+      margin-left: -1px
+      cursor: pointer
+      width: 63px
+      &:hover
+        color: $color_red_main
+      &::-webkit-details-marker
+        display: none
+      &::after
+        content: '\25be'
+      &_open[open] &::after
+        content: '\25b4'
+      &_second
+        width: 40px
+
+
+.products
+  margin-bottom: 42px
+
+.catalog_pag
+  display: flex
+  justify-content: space-between
+  &_list
+    display: flex
+    border: 1px solid rgba(235, 235, 235, 1)
+    border-radius: 3px
+
+.page_item
+  margin: 16px 0 16px 16px
+  font-size: 16px
+  font-weight: 600
+  color: rgba(196, 196, 196, 1)
+  line-height: 12px
+  &:last-of-type
+    margin-right: 16px
+
+.page_link
+  font-size: 16px
+  font-weight: 600
+  color: rgba(196, 196, 196, 1)
+  line-height: 12px
+  &_active
+    color: rgba(239, 91, 112, 1)
+  &:hover
+    color: rgba(239, 91, 112, 1)
+
+.catalog_filter
+  display: flex
+  justify-content: flex-start
+  flex-wrap: wrap
+
+.filter_name
+  margin-bottom: 25px
+  font-size: 14px
+  font-weight: bold
+  color: rgba(111, 110, 110, 1)
+  line-height: 10px
+  text-transform: uppercase
+
+.trend
+  margin-right: 114px
+  &_stroke
+    margin-bottom: 13px
+    display: flex
+    justify-content: space-between
+    width: 176px
+  &_link
+    font-size: 14px
+    color: rgba(111, 110, 110, 1)
+    &:hover
+      color: $color_red_main
+  &_span
+    font-size: 14px
+    color: rgba(223, 223, 223, 1)
+    cursor: default
+
+.size
+  margin-right: 35px
+  &_checkbox
+    cursor: pointer
+    opacity: 1
+    height: 15px
+    width: 15px
+    margin-right: 9px
+    &_style
+      font-size: 14px
+      color: rgba(111, 110, 110, 1)
+      line-height: 10px
+      text-transform: uppercase
+      width: 59px
+      display: flex
+      align-items: center
+      &:hover
+        color: $color_red_main
+  &_stroke
+    padding-top: 1px
+    margin-bottom: 13px
+    display: flex
+    width: 236px
+
+.price_stroke
+  width: 262px
+  display: flex
+  justify-content: space-between
+  margin-bottom: 13px
+  &_price
+    font-size: 14px
+    color: rgba(111, 110, 110, 1)
+    line-height: 10px
+
+.price_range
+  width: 262px
+
+.cart_img
+  width: 72px
+  height: 85px
+
+.btn-cart
+  background: none
+  border: none
+  margin-right: 26px
+
+
+
+
+
+
+
+
+
+
+
+
