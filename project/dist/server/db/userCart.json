@@ -1,0 +1,16 @@
+{
+    "amount": 200,
+    "countGoods": 1,
+    "contents": [
+        {
+            "id_product": 2,
+            "img": {
+                "normal": "img/product_2.jpg",
+                "big": "img/product_2_big.jpg"
+            },
+            "product_name": "product 2",
+            "price": 200,
+            "quantity": 1
+        }
+    ]
+}

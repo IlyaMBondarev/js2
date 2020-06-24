@@ -1,0 +1,74 @@
+[
+  {
+    "id_product": 9,
+    "img": { "normal":"img/catalog1.jpg",
+      "big": "img/catalog1_big.jpg"
+    },
+    "product_name": "catalog 1",
+    "price": 150
+  },
+  {
+    "id_product": 10,
+    "img": { "normal":"img/catalog2.jpg",
+      "big": "img/catalog2_big.jpg"
+    },
+    "product_name": "catalog 2",
+    "price": 250
+  },
+  {
+    "id_product": 11,
+    "img": { "normal":"img/catalog3.jpg",
+      "big": "img/catalog3_big.jpg"
+    },
+    "product_name": "catalog 3",
+    "price": 350
+  },
+  {
+    "id_product": 12,
+    "img": { "normal":"img/catalog4.jpg",
+      "big": "img/catalog4_big.jpg"
+    },
+    "product_name": "catalog 4",
+    "price": 450
+  },
+  {
+    "id_product": 13,
+    "img": { "normal":"img/catalog5.jpg",
+      "big": "img/catalog5_big.jpg"
+    },
+    "product_name": "catalog 5",
+    "price": 550
+  },
+  {
+    "id_product": 14,
+    "img": { "normal":"img/catalog6.jpg",
+      "big": "img/catalog6_big.jpg"
+    },
+    "product_name": "catalog 6",
+    "price": 650
+  },
+  {
+    "id_product": 15,
+    "img": { "normal":"img/catalog7.jpg",
+      "big": "img/catalog7_big.jpg"
+    },
+    "product_name": "catalog 7",
+    "price": 750
+  },
+  {
+    "id_product": 16,
+    "img": { "normal":"img/catalog8.jpg",
+      "big": "img/catalog8_big.jpg"
+    },
+    "product_name": "catalog 8",
+    "price": 850
+  },
+  {
+    "id_product": 17,
+    "img": { "normal":"img/catalog9.jpg",
+      "big": "img/catalog9_big.jpg"
+    },
+    "product_name": "catalog 9",
+    "price": 950
+  }
+]
