@@ -1,31 +1,4 @@
-Vue.component('basket-js', {
-    data() {
-        return {
-            cartAPI: this.$root.$refs.header.$refs.cart,
-        }
-    },
-    template:`
-    <div class="cart center">
-        <ul class="cart_menu">
-            <li class="cart_menu_list cart_product_details">Product Details</li>
-            <li class="cart_menu_list">unite Price</li>
-            <li class="cart_menu_list">Quantity</li>
-            <li class="cart_menu_list">shipping</li>
-            <li class="cart_menu_list">Subtotal</li>
-            <li class="cart_menu_list">ACTION</li>
-        </ul>
-        <basket-item v-for="item of cartAPI.cartItems" 
-                :key="item.id_product"
-                :item="item">
-                </basket-item>
-        <div class="cart_buttons"><a href="#" class="cart_button" @click="cartAPI.clear()">cLEAR SHOPPING CART</a> <a href="product.html"
-                                                                                             class="cart_button">cONTINUE
-            sHOPPING</a></div>
-    </div>
-    `,
-});
-
-Vue.component('basket-item', {
+const basketItem = {
     props: ['item'],
     data() {
         return {
@@ -51,9 +24,9 @@ Vue.component('basket-item', {
             <button class="cart_cancel_action"><img src="img/cart_cancel_action.jpg" alt="cart_cancel_action"
                                                     class="cart_cancel_action_image" @click="cartAPI.remove(item)"></button>
         </div>`,
-})
+};
 
-Vue.component('grand-total-js', {
+const grandTotalJs = {
     data() {
         return {
             cartAPI: this.$root.$refs.header.$refs.cart,
@@ -67,4 +40,37 @@ Vue.component('grand-total-js', {
             <button type="submit" class="cart_form_submit_total button">proceed to checkout</button>
         </div>
     `,
-});
+};
+
+const basketJs = {
+    data() {
+        return {
+            cartAPI: this.$root.$refs.header.$refs.cart,
+        }
+    },
+    components: {
+        basketItem,
+        grandTotalJs
+    },
+    template:`
+    <div class="cart center">
+        <ul class="cart_menu">
+            <li class="cart_menu_list cart_product_details">Product Details</li>
+            <li class="cart_menu_list">unite Price</li>
+            <li class="cart_menu_list">Quantity</li>
+            <li class="cart_menu_list">shipping</li>
+            <li class="cart_menu_list">Subtotal</li>
+            <li class="cart_menu_list">ACTION</li>
+        </ul>
+        <basket-item v-for="item of cartAPI.cartItems" 
+                :key="item.id_product"
+                :item="item">
+                </basket-item>
+        <div class="cart_buttons"><a href="#" class="cart_button" @click="cartAPI.clear()">cLEAR SHOPPING CART</a> <a href="product.html"
+                                                                                             class="cart_button">cONTINUE
+            sHOPPING</a></div>
+    </div>
+    `,
+};
+
+export default basketJs;

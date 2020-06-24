@@ -347,7 +347,7 @@ input[type=range] {
 }
 
 .slider {
-  background-image: url(img/slider.png);
+  background-image: url(../img/slider.png);
   display: flex;
   flex-direction: column;
   height: 614px;
@@ -389,25 +389,25 @@ input[type=range] {
 }
 
 .banner_1 {
-  background-image: url(img/banner_1.jpg);
+  background-image: url(../img/banner_1.jpg);
   height: 542px;
   width: 560px;
 }
 
 .banner_2 {
-  background-image: url(img/banner_2.jpg);
+  background-image: url(../img/banner_2.jpg);
   height: 261px;
   width: 560px;
 }
 
 .banner_3 {
-  background-image: url(img/banner_3.jpg);
+  background-image: url(../img/banner_3.jpg);
   height: 261px;
   width: 560px;
 }
 
 .banner_4 {
-  background-image: url(img/banner_4.jpg);
+  background-image: url(../img/banner_4.jpg);
   height: 542px;
   width: 560px;
 }
@@ -564,7 +564,7 @@ input[type=range] {
   height: 529px;
   width: 1140px;
   background-repeat: no-repeat;
-  background-image: url(img/feature.jpg);
+  background-image: url(../img/feature.jpg);
 }
 .feature_h1 {
   font-size: 54px;
@@ -656,7 +656,7 @@ input[type=range] {
 }
 
 .subscribe {
-  background-image: url(img/subscribe_bg.png);
+  background-image: url(../img/subscribe_bg.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 438px;
@@ -896,16 +896,16 @@ input[type=range] {
   text-align: center;
 }
 .offer_img_1 {
-  background-image: url(img/offer_1.png);
+  background-image: url(../img/offer_1.png);
 }
 .offer_img_2 {
-  background-image: url(img/offer_2.png);
+  background-image: url(../img/offer_2.png);
 }
 .offer_img_3 {
-  background-image: url(img/offer_3.png);
+  background-image: url(../img/offer_3.png);
 }
 .offer_img_4 {
-  background-image: url(img/offer_4.png);
+  background-image: url(../img/offer_4.png);
 }
 .offer_name {
   font-size: 14px;
@@ -1291,7 +1291,7 @@ input[type=range] {
   cursor: pointer;
 }
 .checkout_drop_left_form_checkbox:checked {
-  background-image: url("img/dot.png");
+  background-image: url("../img/dot.png");
   background-repeat: no-repeat;
   background-position: center;
 }
