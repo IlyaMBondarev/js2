@@ -1,4 +1,7 @@
-Vue.component('header-js', {
+import cartJs from "./CartComp";
+
+const headerJs = {
+    components: { cartJs },
     template:`<header class="header center">
         <div class="header_left">
             <a href="index.html" class="logo"><img src="img/logo.png" alt="logo" class="logo_img">BRAN<span
@@ -45,4 +48,6 @@ Vue.component('header-js', {
             <cart-js ref="cart"></cart-js>
             <a href="#" class="button">My&nbsp;Account<img class="margin_left_8" src="img/arrow_down_white.jpg" alt="arrow_down"></a></div>
     </header>`,
-});
+};
+
+export default headerJs;
